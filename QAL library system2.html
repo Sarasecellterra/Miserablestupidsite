@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Library manager scene</title>
+  <style>
+    /* Style the lefthand content */
+    .contentL {
+      margin-left: 0px;
+      padding: 0px;
+      background-color: #ea60f7;
+      display: flex;
+    }
+
+    /* Style the righthand content */
+    .contentR {
+      padding: 0px;
+      background-color: #ea60f7;
+    }
+
+    /* Style the body background COLOR: ASH GRAY */
+    body {
+      background-color: #708090;
+    }
+
+    /* Onscreen GUI elements */
+    .GUIelement {
+      background-color: #6082B6;
+      border: 2px solid black;
+    }
+
+    /* Class for the list of books */
+    .Booklistclass {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      height: relative;
+    }
+
+    /* Creates flex for lists */
+    .flex-container {
+      display: flex;
+      justify-content: space-between;
+    }
+  </style>
+</head>
+<body>
+  <!-- Main page content -->
+  <div class="flex-container">
+    <!-- Left-hand content -->
+    <div class="contentL">
+      <!-- Booklist -->
+      <ul class="GUIelement Booklistclass" style=width: 1000; height: 1000;>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+      </ul>
+      <ul class="GUIelement Booklistclass">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+      </ul>
+    </div>
+
+    <!-- Right-hand content -->
+    <div class="contentR">
+      <button>=</button>
+    </div>
+  </div>
+</body>
+</html>
